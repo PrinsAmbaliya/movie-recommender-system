@@ -61,4 +61,19 @@ A **Machine Learning + Streamlit Web App** to recommend similar movies based on 
 -  Model: Cosine Similarity matrix on vectorized tags
 -  Saved: As movie_dict.pkl (processed data) and similarity.pkl (similarity matrix)
 
-## 
+## 🖼 Screenshots
+<img width="1908" height="1079" alt="image" src="https://github.com/user-attachments/assets/9aa20120-f7b4-46a9-8efb-d0cd5f5b6dfb" />
+
+## 🔮 Future Improvements
+-  Integrate advanced ML models (e.g., TF-IDF, Deep Learning embeddings)
+-  Deploy live on Streamlit Sharing / Render
+-  Expand dataset with TMDB API for real-time data
+-  Enhance UI/UX with user ratings and hybrid filtering
+-  Add more features like release year and popularity
+
+##  👨‍💻 Author
+Prins Ambaliya
+
+GitHub: PrinsAmbaliya
+
+LinkedIn: https://www.linkedin.com/in/prins-ambaliya-bb7546367
