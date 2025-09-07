@@ -28,3 +28,37 @@ A **Machine Learning + Streamlit Web App** to recommend similar movies based on 
 └── README.md                               # Project Documentation
 ```
 
+
+## ⚙️ How It Works
+1. User enters:
+   - Movie Title (from dropdown)
+2. The request is processed by the Streamlit app.
+3. The trained model recommends 5 similar movies with posters fetched from TMDB API.
+4. Results are displayed on the webpage with movie titles and posters.
+
+## 🚀 Installation & Setup
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/PrinsAmbaliya/Movie_Recommender_System.git
+   cd Movie_Recommender_System
+2. **Create a Virtual Environment & Activate It**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate    # Linux/Mac
+   venv\Scripts\activate       # Windows
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+4. **Run the Streamlit Server**:
+   ```bash
+   streamlit run app.py
+5. **Open the App in Your Browser**:
+   - Select a movie → get recommendations
+
+## 📊 Model Training
+-  Preprocessing: Merged datasets, extracted features (genres, keywords, cast, crew, overview),applied stemming with NLTK
+-  Feature Engineering: Combined features into 'tags' column, vectorized with CountVectorizer (top 5000 features)
+-  Model: Cosine Similarity matrix on vectorized tags
+-  Saved: As movie_dict.pkl (processed data) and similarity.pkl (similarity matrix)
+
+## 
