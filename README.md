@@ -10,3 +10,21 @@ A **Machine Learning + Streamlit Web App** to recommend similar movies based on 
 - **Deployment Ready**: Can be hosted on Streamlit Sharing / Heroku / Render / AWS
 
 ## 🗂 Project Structure
+
+```
+├── model/
+│   ├── movie_dict.pkl                      # Pickled DataFrame of processed movie data
+│   ├── similarity.pkl                      # Pickled cosine similarity matrix
+│
+├── data/
+│   ├── tmdb_5000_movies.csv                # Raw movie details dataset
+│   ├── tmdb_5000_credits.csv               # Raw credits dataset
+│
+├── notebooks/
+│   └── movie-recommender-system.ipynb      # Jupyter notebook for EDA & model training
+│
+├── app.py                                  # Streamlit server and UI
+├── requirements.txt                        # Dependencies
+└── README.md                               # Project Documentation
+```
+
